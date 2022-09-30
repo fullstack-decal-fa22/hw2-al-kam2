@@ -14,17 +14,23 @@
 h2 {
   font-size: medium;
   font-weight: 200;
+  color:purple;
 }
 /* END SETUP */
 
 /* Classes that you might find useful */
 /* You may also have to implement your own classes */
+.label:hover {
+  color: orange;
+  transform: scale(3);
+}
 
 .flag {
   height: 300px;
   width: 500px;
   border-style: solid;
   margin-bottom: 5rem;
+  margin: 10px;
 }
 
 .twovert {
@@ -32,6 +38,7 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -75,8 +82,8 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
-  background-color: lightblue;
+.light-blue {
+  background-color: skyblue;
 }
 
 .purple {
@@ -84,25 +91,36 @@ h2 {
 }
 
 .white {
-  background-color: #fff;
+  background-color: white;
 }
 
 .black {
-  background-color: #000;
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+#white {
+  background-color: white;
 }
 
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  height: 16.65%;
+  background-color: #B5002D;
 }
 
 .thailand-white {
-  /* TODO */
+  height: 16.65%;
+  background-color: white;
 }
 
 .thailand-blue {
-  /* TODO */
+  height: 33.3%;
+  background-color: #2E2A4C;
 }
 
 /* END QUESTION 2 */
@@ -129,7 +147,9 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  align-self: center; 
+  max-height: 50%; 
+  max-width: 50%;
 }
 
 .mexico-red {
@@ -144,6 +164,7 @@ h2 {
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
+  padding: 60px;
 }
 
 /* For margin practice */
